@@ -10,8 +10,10 @@ public class studentMapper {
         dto.setName(entity.getName());
         dto.setEmail(entity.getEmail());
         dto.setPhone(entity.getPhone());
+        dto.setGender(entity.getGender());
         dto.setAddress(entity.getAddress());
         dto.setResume(entity.getResume());
+        dto.setLinkedin(entity.getLinkedin());
         return dto;
     }
 
@@ -21,8 +23,10 @@ public class studentMapper {
         entity.setName(dto.getName());
         entity.setEmail(dto.getEmail());
         entity.setPhone(dto.getPhone());
+        entity.setGender(dto.getGender());
         entity.setAddress(dto.getAddress());
         entity.setResume(dto.getResume());
+        entity.setLinkedin(dto.getLinkedin());
         return entity;
     }
 }
