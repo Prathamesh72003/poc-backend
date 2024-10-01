@@ -14,6 +14,7 @@ public class studentMapper {
         dto.setAddress(entity.getAddress());
         dto.setResume(entity.getResume());
         dto.setLinkedin(entity.getLinkedin());
+        dto.setDepartment(entity.getDepartment());
         return dto;
     }
 
@@ -27,6 +28,7 @@ public class studentMapper {
         entity.setAddress(dto.getAddress());
         entity.setResume(dto.getResume());
         entity.setLinkedin(dto.getLinkedin());
+        entity.setDepartment(dto.getDepartment());
         return entity;
     }
 }

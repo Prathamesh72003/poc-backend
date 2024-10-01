@@ -18,4 +18,5 @@ public class studentDTO {
     private String address;
     private String resume;
     private String linkedin;
+    private String department;
 }

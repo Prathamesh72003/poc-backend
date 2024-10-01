@@ -41,4 +41,7 @@ public class studentEntity {
 
     @Column(name = "linkedin")
     private String linkedin;
+
+    @Column(name = "derpartment")
+    private String department;
 }
